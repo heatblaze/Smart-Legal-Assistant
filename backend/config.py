@@ -1,0 +1,5 @@
+NLU_API_KEY = "your_nlu_api_key"
+NLU_URL = "your_nlu_url"
+ASSISTANT_API_KEY = "your_assistant_api_key"
+ASSISTANT_URL = "your_assistant_url"
+DB2_CONN_STR = "..."

@@ -1,0 +1,64 @@
+Smart-Legal-Assistant/
+│
+├── backend/ # Flask backend
+│ ├── app.py # Main Flask application
+│ ├── config.py # Configuration settings
+│ ├── models/ # Database models
+│ │ ├── init.py
+│ │ └── db.py
+│ ├── routes/ # API route definitions
+│ │ ├── init.py
+│ │ └── api.py
+│ ├── services/ # NLP and utility services
+│ │ ├── init.py
+│ │ ├── nlp.py
+│ │ ├── parsing.py
+│ │ └── watson.py
+│ ├── uploads/ # Uploaded documents
+│ │ └── init.py
+│
+├── build/ # Production frontend build (auto-generated)
+│ └── static/
+│ ├── css/
+│ │ ├── main.87fdd233.css
+│ │ └── main.87fdd233.css.map
+│ └── js/
+│ ├── main.9de003b9.js
+│ ├── main.9de003b9.js.LICENSE.txt
+│ └── main.9de003b9.js.map
+│ ├── asset-manifest.json
+│ └── index.html
+│
+├── node_modules/ # Node.js dependencies (auto-generated)
+│
+├── public/ # Static public assets for React
+│ └── index.html
+│
+├── src/ # React frontend source code
+│ ├── assets/ # Images, icons, etc.
+│ ├── components/
+│ │ ├── elements/ # Main UI elements
+│ │ │ ├── DocumentUploader.jsx
+│ │ │ ├── QnAChat.jsx
+│ │ │ ├── RiskHighlights.jsx
+│ │ │ └── SummaryView.jsx
+│ │ └── ui/ # Reusable UI components
+│ │ ├── Button.jsx
+│ │ ├── Card.jsx
+│ │ └── Input.jsx
+│ ├── pages/ # Page-level components
+│ │ ├── Dashboard.jsx
+│ │ └── Home.jsx
+│ ├── utils/ # Utility functions and theming
+│ │ ├── cn.js
+│ │ ├── index.js
+│ │ └── theme.js
+│ ├── App.jsx # Main React app component
+│ ├── index.css # Global styles (Tailwind, custom CSS)
+│ └── index.js # React entry point
+│
+├── package.json # NPM scripts and dependencies
+├── tailwind.config.js # Tailwind CSS configuration
+├── postcss.config.js # PostCSS configuration
+├── README.md # Project documentation
+└── Repository Structure 
